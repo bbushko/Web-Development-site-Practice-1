@@ -3,4 +3,4 @@ My first practice with real project. I found the page .psd layout online, and de
 
 Link to the layout's site: https://camouf.ru/designes/ready-psd-layouts-for-saito/7836.html
 
-Try to enjoy looking this page's code! :)
+Try to enjoy looking the code! :)
