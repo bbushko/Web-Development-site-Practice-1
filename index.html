@@ -4,265 +4,291 @@
   <meta charset="utf-8">
   <link href="resources/css/style.css" type="text/css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com"> 
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;&display=swap" rel="stylesheet">
   <title>Flexbox Practice</title>
+    <style>
+    body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        }
+        li {
+        list-style-type: none; 
+        }
+        ul {
+        margin-left: 0; 
+        padding-left: 0;
+    }
+  </style>
  </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <h2 id="logo">Your Logo</h2>
-        </div>
-        <nav class="header__navigation">
-            <ul>
-                <li class="nav__item">Home</li>
-                <li class="nav__item">About</li>
-                <li class="nav__item">Servicing</li>
-                <li class="nav__item">Portfolio</li>
-                <li class="nav__item">Blog</li>
-                <li class="nav__item">Contatct us</li>
-                <li class="nav__item"><span style="font-family: Segoe UI Symbol,serif;">&#128269;</span></li>
-            </ul>
-            
 
-        </nav>
+
+    <header>
+        <div class="header"></div>
+            <div class="logo">
+                <h2><a href="#">Your Logo</a></h2>
+            </div>
+            <nav class="header__navigation">
+                <ul>
+                    <li class="nav__item"><a href="#">Home</a></li>
+                    <li class="nav__item"><a href="#">About</a></li>
+                    <li class="nav__item"><a href="#">Servicing</a></li>
+                    <li class="nav__item"><a href="#">Portfolio</a></li>
+                    <li class="nav__item"><a href="#">Blog</a></li>
+                    <li class="nav__item"><a href="#">Contatct us</a></li>
+                    <li class="nav__item"><a href="#"><span style="font-family: Segoe UI Symbol,serif;">&#128269;</span></a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
+
     <section class="page__hero">
         <h1 class="page-heading">Web development project</h1>
         <p class="subheading">Very suitable to support all web development projects</p>
         <button class="button-primary button-active">OUR SERVICES</button>
-        <button class="button-primary button-active">HIRE IS NOW</button>
-        <div class="down-icon"><span style="font-family: Segoe UI Symbol,serif;">&#9660;</span></div>
-    </section>
-    <section class="about">
-        <h2 class="heading-secondary">About Us</h2>
-        <p class="subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-        <div class="image-presenter">
-            <div class="image-presenter__item">
-                <img src="resources/images/internet.png" alt="Internet icon">
-                <h3>Awesome Icons</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-            </div>
-            
-            <div class="image-presenter__item">
-                <img src="resources/images/transfer.png" alt="Transfer icon">
-                <h3>One Page</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-            </div>
-            
-            <div class="image-presenter__item">
-                <img src="resources/images/head.png" alt="">
-                <h3>Fully Responsive</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-            </div>
-        </div>
-    </section>
-    <section class="services">
-        <h2 class="heading-seconday">Our Services</h2>
-        <p class="subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-        <div class="card-presenter">
-            <div class="card-presenter__item card-presenter__item-active">
-                <img src="resources/images/smartphone.png" alt="smartphone" class="mobile-icon">
-                <h3 class="card-header">Research</h3>
-                <p class="paragraph-secondary">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos</p>
-                <div class="button-secondary button-active">READ MORE</div>
-            </div>
-            <div class="card-presenter__item card-presenter__item-active">
-                <img src="resources/images/smartphone.png" alt="smartphone" class="mobile-icon">
-                <h3 class="card-header">Portfolio</h3>
-                <p class="paragraph-secondary">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos</p>
-                <div class="button-secondary button-active">READ MORE</div>
-            </div>
-            <div class="card-presenter__item card-presenter__item-active">
-                <img src=resources/images/smartphone.png"" alt="smartphone" class="mobile-icon">
-                <h3 class="card-header">Support</h3>
-                <p class="paragraph-secondary">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos</p>
-                <div class="button-secondary button-active">READ MORE</div>
-            </div>
-            <div class="card-presenter__item card-presenter__item-active">
-                <img src="resources/images/smartphone.png" alt="smartphone" class="mobile-icon">
-                <h3 class="card-header">Documentation</h3>
-                <p class="paragraph-secondary">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos</p>
-                <div class="button-secondary button-active">READ MORE</div>
-            </div>
-            <div class="card-presenter__item card-presenter__item-active">
-                <img src="resources/images/smartphone.png" alt="smartphone" class="mobile-icon">
-                <h3 class="card-header">Development</h3>
-                <p class="paragraph-secondary">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos</p>
-                <div class="button-secondary button-active">READ MORE</div>
-            </div>
-            <div class="card-presenter__item card-presenter__item-active">
-                <img src="resources/images/smartphone.png" alt="smartphone" class="mobile-icon">
-                <h3 class="card-header">Design</h3>
-                <p class="paragraph-secondary">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos</p>
-                <div class="button-secondary button-active">READ MORE</div>
-            </div>
-        </div>
-    </section>
-    <section class="latest-works">
-        <h2 class="heading-secondary latest-works__heading-secondary">Latest Works</h2>
-        <p class="subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-        <button class="button-secondary button-active">ALL</button>
-        <button class="button-secondary button-active">WEB DESIGN</button>
-        <button class="button-secondary button-active">UI/UX DESIGN</button>
-        <button class="button-secondary button-active">MOCKUPS</button>
-        <div class="design-items">
-            <div class="design-item"><img src="resources/images/hand-watch.png" alt="Hand Watch. ui/ux design"></div>
-            <div class="design-item"><img src="resources/images/face-mask.png" alt="Face mask"></div>
-            <div class="design-item"><img src="resources/images/linen.png" alt="Linen"></div>
-            <div class="design-item"><img src="resources/images/Flask.png" alt="Flask"></div>
-            <div class="design-item"><img src="resources/images/Vine-bottle.png" alt="Bottle of Wine"></div>
-            <div class="design-item"><img src="resources/images/backpack.png" alt="Backpack"></div>
-        </div>
-        <button class="button-primary button-active">VIEW ALL</button>
+        <button class="button-primary button-active">HIRE US NOW</button>
+        <div class="down-icon"><a href="#about"><span style="font-family: Segoe UI Symbol,serif;">&#9660;</span></a></div>
     </section>
 
+    <main>
+        <section class="about" id="about">
+            <h2 class="heading-secondary">About Us</h2>
+            <div class="subheading-secondary-container"><p class="subheading-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p></div>
+            <div class="image-presenter">
+                <div class="image-presenter__item">
+                    <img src="resources/images/internet.png" alt="Internet icon">
+                    <h3>Awesome Icons</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                </div>
+                
+                <div class="image-presenter__item">
+                    <img src="resources/images/transfer.png" alt="Transfer icon">
+                    <h3>One Page</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                </div>
+                
+                <div class="image-presenter__item">
+                    <img src="resources/images/head.png" alt="">
+                    <h3>Fully Responsive</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                </div>
+            </div>
+        </section>
 
-    <!Нужно доделать>
 
-    <section class="pricing">
-        <h2 class="heading-secondary">Pricing Plan</h2>
-        <p class="subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-        <div class="pricing-plan">
-            <div class="pricing-plan__item">
-                <div class="pricing-plan-item__price">
-                    <h3>Free Trail</h3>
-                    <p class="cost"><span class="dollar-symbol-upper">$ </span><span class="sum"> 00</span> per month</p>
-                </div>
-                <div class="pricing-plan__item__included">
-                    <p class="pricing-plan__item__paragraph">30 Free Trail</p>
-                    <p class="pricing-plan__item__paragraph">5 Free Projects</p>
-                    <p class="pricing-plan__item__paragraph">PHP 5 Enabled</p>
-                    <p class="pricing-plan__item__paragraph">24/7 Suports</p>
-                </div>
-                <button class="button-secondary button-active">Order Now</button>
+        <section class="services">
+            <h2 class="heading-seconday">Our Services</h2>
+            <div class="subheading-secondary-container">
+                <p class="subheading-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
-            <div class="pricing-plan__item">
-                <div class="pricing-plan-item__price">
-                    <h3>Basic</h3>
-                    <p class="cost"><span class="dollar-symbol-upper">$ </span><span class="sum"> 50</span> per month</p>
+            <div class="card-presenter">
+                <div class="card-presenter__item card-presenter__item-active">
+                    <img src="resources/images/smartphone.png" alt="smartphone" class="mobile-icon">
+                    <h3 class="card-header">Research</h3>
+                    <p class="paragraph-secondary">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos</p>
+                    <button class="button-secondary button-services">READ MORE</button>
                 </div>
-                <div class="pricing-plan__item__included">
-                    <p class="pricing-plan__item__paragraph">30 Free Trail</p>
-                    <p class="pricing-plan__item__paragraph">5 Free Projects</p>
-                    <p class="pricing-plan__item__paragraph">PHP 5 Enabled</p>
-                    <p class="pricing-plan__item__paragraph">24/7 Suports</p>
+                <div class="card-presenter__item card-presenter__item-active">
+                    <img src="resources/images/smartphone.png" alt="smartphone" class="mobile-icon">
+                    <h3 class="card-header">Portfolio</h3>
+                    <p class="paragraph-secondary">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos</p>
+                    <button class="button-secondary">READ MORE</button>
                 </div>
-                <button class="button-secondary button-active">ORDER NOW</button>
+                <div class="card-presenter__item card-presenter__item-active">
+                    <img src="resources/images/smartphone.png" alt="smartphone" class="mobile-icon">
+                    <h3 class="card-header">Support</h3>
+                    <p class="paragraph-secondary">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos</p>
+                    <button class="button-secondary">READ MORE</button>
+                </div>
+                <div class="card-presenter__item card-presenter__item-active">
+                    <img src="resources/images/smartphone.png" alt="smartphone" class="mobile-icon">
+                    <h3 class="card-header">Documentation</h3>
+                    <p class="paragraph-secondary">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos</p>
+                    <button class="button-secondary">READ MORE</button>
+                </div>
+                <div class="card-presenter__item card-presenter__item-active">
+                    <img src="resources/images/smartphone.png" alt="smartphone" class="mobile-icon">
+                    <h3 class="card-header">Development</h3>
+                    <p class="paragraph-secondary">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos</p>
+                    <button class="button-secondary">READ MORE</button>
+                </div>
+                <div class="card-presenter__item card-presenter__item-active">
+                    <img src="resources/images/smartphone.png" alt="smartphone" class="mobile-icon">
+                    <h3 class="card-header">Design</h3>
+                    <p class="paragraph-secondary">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos</p>
+                    <button class="button-secondary">READ MORE</button>
+                </div>
             </div>
-            <div class="pricing-plan__item">
-                <div class="pricing-plan-item__price">
-                    <h3>Ultimates</h3>
-                    <p class="cost"><span class="dollar-symbol-upper">$ </span><span class="sum"> 99</span> per month</p>
-                </div>
-                <div class="pricing-plan__item__included">
-                    <p class="pricing-plan__item__paragraph">30 Free Trail</p>
-                    <p class="pricing-plan__item__paragraph">5 Free Projects</p>
-                    <p class="pricing-plan__item__paragraph">PHP 5 Enabled</p>
-                    <p class="pricing-plan__item__paragraph">24/7 Suports</p>
-                </div>
-                <button class="button-secondary button-active">ORDER NOW</button>
-            </div>
-            
-        </div>
-    </section>
+        </section>
 
-    <!--Slide Show-->
+        
+        <section class="latest-works">
+            <h2 class="heading-secondary latest-works__heading-secondary">Latest Works</h2>
+            <div class="subheading-secondary-container"><p class="subheading-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p></div>
+            <div class="latest-works__buttons">
+                <button class="button-secondary">ALL</button>
+                <button class="button-secondary">WEB DESIGN</button>
+                <button class="button-secondary">UI/UX DESIGN</button>
+                <button class="button-secondary">MOCKUPS</button>
+            </div>
+            <div class="design-items">
+                <div class="design-item"><img src="resources/images/hand-watch.png" alt="Hand Watch. ui/ux design">
+                    <h3>Hand Watch</h3><p>ui/ux design</p>
+                </div>
+                <div class="design-item"><img src="resources/images/face-mask.png" alt="Face mask">
+                    <h3>Face mask</h3><p>ui/ux design</p>
+                </div>
+                <div class="design-item"><img src="resources/images/linen.png" alt="Linen">
+                    <div class="hover-text"><h3>Linen</h3><p>ui/ux design</p></div>
+                </div>
+                <div class="design-item"><img src="resources/images/Flask.png" alt="Flask"><h3>Flask</h3><p>ui/ux design</p></div>
+                <div class="design-item"><img src="resources/images/Vine-bottle.png" alt="Bottle of Wine"><h3>Bottle of Wine</h3><p>ui/ux design</p></div>
+                <div class="design-item"><img src="resources/images/backpack.png" alt="Backpack"><h3>Backpack</h3><p>ui/ux design</p></div>
+            </div>
+            <button class="button-primary button-active">VIEW ALL</button>
+        </section>
 
-    <section class="team-members">
-        <h2 class="header-secondary">Our Team Member</h2>
-        <p class="subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-        <div class="slideshow-container">
-            <div class="slide">
-                <img src="resources/images/john_doe.png" alt="John Doe" class="team-members__photo">
-                <h3 class="blog__item__header">John Doe</h3>
-                <p class="subheading">General Manager</p>
-                <img src="resources/images/rounded-rectangle.png" alt="" class="facebook-icon facebook-icon-active"><img src="resources/images/rounded-rectangle.png" alt="" class="twitter-icon twitter-icon-active"><img src="resources/images/rounded-rectangle.png" alt="" class="messanger-icon messanger-icon-active"><img src="resources/images/rounded-rectangle.png" alt="" class="ball-icon ball-icon-active"></div>
-            <div class="slide">
-                <img src="resources/images/alexa_biru.png" alt="Alexa Biru" class="team-members__photo">
-                <h3 class="blog__item__header"></h3>
-                <p class="subheading"></p>
-                <img src="resources/images/rounded-rectangle.png" alt="" class="facebook-icon facebook-icon-active"><img src="resources/images/rounded-rectangle.png" alt="" class="twitter-icon twitter-icon-active"><img src="resources/images/rounded-rectangle.png" alt="" class="messanger-icon messanger-icon-active"><img src="resources/images/rounded-rectangle.png" alt="" class="ball-icon ball-icon-active"></div>
-            <div class="slide">
-                <img src="resources/images/ronobir_sing.png" alt="" class="team-members__photo">
-                <h3 class="blog__item__header"></h3>
-                <p class="subheading"></p>
-                <img src="resources/images/rounded-rectangle.png" alt="" class="facebook-icon facebook-icon-active"><img src="resources/images/rounded-rectangle.png" alt="" class="twitter-icon twitter-icon-active"><img src="resources/images/rounded-rectangle.png" alt="" class="messanger-icon messanger-icon-active"><img src="resources/images/rounded-rectangle.png" alt="" class="ball-icon ball-icon-active"></div>
-            <div class="slide">
-                <img src="resources/images/john_doe.png" alt="John Doe" class="team-members__photo">
-                <h3 class="blog__item__header">John Doe</h3>
-                <p class="subheading">General Manager</p>
-                <img src="resources/images/rounded-rectangle.png" alt="" class="facebook-icon facebook-icon-active"><img src="resources/images/rounded-rectangle.png" alt="" class="twitter-icon twitter-icon-active"><img src="resources/images/rounded-rectangle.png" alt="" class="messanger-icon messanger-icon-active"><img src="resources/images/rounded-rectangle.png" alt="" class="ball-icon ball-icon-active"></div>
-            <div class="slide">
-                <img src="resources/images/alexa_biru.png" alt="Alexa Biru" class="team-members__photo">
-                <h3 class="blog__item__header"></h3>
-                <p class="subheading"></p>
-                <img src="resources/images/rounded-rectangle.png" alt="" class="facebook-icon facebook-icon-active"><img src="resources/images/rounded-rectangle.png" alt="" class="twitter-icon twitter-icon-active"><img src="resources/images/rounded-rectangle.png" alt="" class="messanger-icon messanger-icon-active"><img src="resources/images/rounded-rectangle.png" alt="" class="ball-icon ball-icon-active"></div>
-            <div class="slide">
-                <img src="resources/images/ronobir_sing.png" alt="" class="team-members__photo">
-                <h3 class="blog__item__header"></h3>
-                <p class="subheading"></p>
-                <img src="resources/images/rounded-rectangle.png" alt="" class="facebook-icon facebook-icon-active"><img src="resources/images/rounded-rectangle.png" alt="" class="twitter-icon twitter-icon-active"><img src="resources/images/rounded-rectangle.png" alt="" class="messanger-icon messanger-icon-active"><img src="resources/images/rounded-rectangle.png" alt="" class="ball-icon ball-icon-active"></div>
-        </div>
-        <!-- The dots/circles -->
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span> 
-            <span class="dot" onclick="currentSlide(2)"></span> 
-            <span class="dot" onclick="currentSlide(3)"></span> 
-        </div>
-    </section>
 
-    <section class="blog">
-        <h2 class="header-secondary">Blog</h2>
-        <p class="subheading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut omnis illum, recusandae quae alias provident numquam odio praesentium officia nihil velit, fugit cum ipsam iure ratione dolore nam, earum consectetur!</p>
-        <div class="blog__item">
-            <img src="resources/images/seo.png" alt="SEO image" class="blog__item__image">
-            <h3 class="blog__item__header">SEO Quis Vetibulum</h3>
-            <div class="blog__item__data">
-                <p class="subheading blog__item__date"><span style="font-family: Segoe UI Symbol,serif;">&#128197;</span> 14.07.2017</p>
-                <p class="subheading blog__item__status"><span style="font-family: Segoe UI Symbol,serif;">&#128460;</span> Development</p>
+        <!Нужно доделать>
+
+        <section class="pricing">
+            <h2 class="heading-secondary">Pricing Plan</h2>
+            <div class="subheading-secondary-container"><p class="subheading-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p></div>
+            <div class="pricing-plan">
+                <div class="pricing-plan__item">
+                    <div class="pricing-plan-item__price">
+                        <h3>Free Trail</h3>
+                        <p class="cost"><span class="sum"><span class="dollar-symbol-upper">$</span>00</span> per month</p>
+                    </div>
+                    <div class="pricing-plan__item__included">
+                        <p class="pricing-plan__item__paragraph">30 Free Trail</p>
+                        <p class="pricing-plan__item__paragraph">5 Free Projects</p>
+                        <p class="pricing-plan__item__paragraph">PHP 5 Enabled</p>
+                        <p class="pricing-plan__item__paragraph">24/7 Suports</p>
+                    </div>
+                    <button class="button-secondary button-active">ORDER NOW</button>
+                </div>
+                <div class="pricing-plan__item">
+                    <div class="pricing-plan-item__price">
+                        <h3>Basic</h3>
+                        <p class="cost"><span class="sum"><span class="dollar-symbol-upper">$</span>50</span> per month</p>
+                    </div>
+                    <div class="pricing-plan__item__included">
+                        <p class="pricing-plan__item__paragraph">30 Free Trail</p>
+                        <p class="pricing-plan__item__paragraph">5 Free Projects</p>
+                        <p class="pricing-plan__item__paragraph">PHP 5 Enabled</p>
+                        <p class="pricing-plan__item__paragraph">24/7 Suports</p>
+                    </div>
+                    <button class="button-secondary button-active">ORDER NOW</button>
+                </div>
+                <div class="pricing-plan__item">
+                    <div class="pricing-plan-item__price">
+                        <h3>Ultimates</h3>
+                        <p class="cost"><span class="sum"><span class="dollar-symbol-upper">$</span>99</span> per month</p>
+                    </div>
+                    <div class="pricing-plan__item__included">
+                        <p class="pricing-plan__item__paragraph">30 Free Trail</p>
+                        <p class="pricing-plan__item__paragraph">5 Free Projects</p>
+                        <p class="pricing-plan__item__paragraph">PHP 5 Enabled</p>
+                        <p class="pricing-plan__item__paragraph">24/7 Suports</p>
+                    </div>
+                    <button class="button-secondary button-active">ORDER NOW</button>
+                </div>
+                
             </div>
-            <p class="subheading blog__item__subheading">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto magnam incidunt consequuntur expedita unde molestias suscipit id, maxime consequatur rem nostrum ab, similique earum dicta vel aliquam iste, animi debitis?</p>
-        </div>
-        <div class="blog__item">
-            <h3 class="blog__item__header">SEO Quis Vestibulum</h3>
-            <div class="blog__item__data">
-                <p class="subheading blog__item__date"><span style="font-family: Segoe UI Symbol,serif;">&#128197;</span>14.07.2017</p>
-                <p class="subheading blog__item__status"><span style="font-family: Segoe UI Symbol,serif;">&#128460;</span>Development</p>
+        </section>
+
+        <!--Slide Show-->
+
+        <section class="team-members">
+            <h2 class="heading-secondary">Our Team Member</h2>
+            <div class="subheading-secondary-container"><p class="subheading-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p></div>
+            <div class="slideshow-container">
+                <div class="slide">
+                    <img src="resources/images/john_doe.png" alt="John Doe" class="team-members__photo">
+                    <h3 class="blog__item__header">John Doe</h3>
+                    <p class="subheading-secondary">General Manager</p>
+                    <img src="resources/images/facebook-logo.svg" alt="Facebook" class="facebook-icon icon"><img src="resources/images/Twitter_bird_logo_2012.svg" alt="Twitter" class="twitter-icon icon"><img src="resources/images/facebook-messenger.png" alt="Facebook Messenger" class="messanger-icon icon"><img src="resources/images/ball-basketball.svg" alt="Ball-site" class="ball-icon icon"></div>
+                <div class="slide">
+                    <img src="resources/images/alexa_biru.png" alt="Alexa Biru" class="team-members__photo">
+                    <h3 class="blog__item__header">Alexa Biru</h3>
+                    <p class="subheading-secondary">Office Director</p>
+                    <img src="resources/images/facebook-logo.svg" alt="Facebook" class="facebook-icon icon"><img src="resources/images/Twitter_bird_logo_2012.svg" alt="Twitter" class="twitter-icon icon"><img src="resources/images/facebook-messenger.png" alt="Facebook Messenger" class="messanger-icon icon"><img src="resources/images/ball-basketball.svg" alt="Ball-site" class="ball-icon icon"></div>
+                <div class="slide">
+                    <img src="resources/images/ronobir_sing.png" alt="Rinobir Sing" class="team-members__photo">
+                    <h3 class="blog__item__header">Ronobir Sing</h3>
+                    <p class="subheading-secondary">Admin</p>
+                    <img src="resources/images/facebook-logo.svg" alt="Facebook" class="facebook-icon icon"><img src="resources/images/Twitter_bird_logo_2012.svg" alt="Twitter" class="twitter-icon icon"><img src="resources/images/facebook-messenger.png" alt="Facebook Messenger" class="messanger-icon icon"><img src="resources/images/ball-basketball.svg" alt="Ball-site" class="ball-icon icon"></div>
             </div>
-            <p class="subheading blog__item__subheading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nemo maiores doloribus autem molestias reiciendis neque, optio deserunt exercitationem quibusdam animi labore. Aperiam ut ea unde mollitia, vitae dolor perferendis?</p>
-            <img src="resources/images/apple-desk-working-technology.png" alt="Apple Working Desktop" class="blog__item__image">
-        </div>
-        <div class="blog__item">
-            <img src="resources/images/imac-apple-mockup-app-38544.png" alt="Apple App" class="blog__item__image">
-            <h3 class="blog__item__header">SEO Quis Vestibulum</h3>
-            <div class="blog__item__data">
-                <p class="subheading blog__item__date"><span style="font-family: Segoe UI Symbol,serif;">&#128197;</span>14.07.2017</p>
-                <p class="subheading blog__item__status"><span style="font-family: Segoe UI Symbol,serif;">&#128460;</span>Development</p>
             </div>
-            <p class="subheading blog__item__subheading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quidem eius vitae blanditiis natus, laborum possimus, eveniet delectus impedit error suscipit odit libero consectetur, distinctio commodi dolore numquam ullam tempora?</p>
-        </div>
-        <button class="button-primary button-active"></button>
-    </section>
+        </section>
+
+        <section class="blog">
+            <h2 class="heading-secondary">Blog</h2>
+            <div class="subheading-secondary-container"><p class="subheading-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut omnis illum, recusandae quae alias provident numquam odio praesentium officia nihil velit, fugit cum ipsam iure ratione dolore nam, earum consectetur!</p></div>
+            <div class="blog__item">
+                <img src="resources/images/seo.png" alt="SEO image" class="blog__item__image">
+                <div class="blog__item__text">
+                    <h3 class="blog__item__header">SEO Quis Vetibulum</h3>
+                    <div class="blog__item__data">
+                        <p class="subheading-secondary blog__item__date"><span style="font-family: Segoe UI Symbol,serif;">&#128197;</span> 14.07.2017</p>
+                        <p class="subheading-secondary blog__item__status"><span style="font-family: Segoe UI Symbol,serif;">&#128460;</span> Development</p>
+                </div>
+                <p class="subheading-secondary blog__item__subheading">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto magnam incidunt consequuntur expedita unde molestias suscipit id, maxime consequatur rem nostrum ab, similique earum dicta vel aliquam iste, animi debitis?</p>
+                </div>
+            </div>
+            <div class="blog__item">
+                <div class="blog__item__text">
+                    <h3 class="blog__item__header">SEO Quis Vestibulum</h3>
+                    <div class="blog__item__data">
+                        <p class="subheading-secondary blog__item__date"><span style="font-family: Segoe UI Symbol,serif;">&#128197;</span>14.07.2017</p>
+                        <p class="subheading-secondary blog__item__status"><span style="font-family: Segoe UI Symbol,serif;">&#128460;</span>Development</p>
+                    </div>
+                    <p class="subheading-secondary blog__item__subheading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nemo maiores doloribus autem molestias reiciendis neque, optio deserunt exercitationem quibusdam animi labore. Aperiam ut ea unde mollitia, vitae dolor perferendis?</p>
+                </div>
+                <img src="resources/images/apple-desk-working-technology.png" alt="Apple Working Desktop" class="blog__item__image">
+                
+            </div>
+            <div class="blog__item">
+                <img src="resources/images/imac-apple-mockup-app-38544.png" alt="Apple App" class="blog__item__image">
+                <div class="blog__item__text">
+                    <h3 class="blog__item__header">SEO Quis Vestibulum</h3>
+                    <div class="blog__item__data">
+                        <p class="subheading-secondary blog__item__date"><span style="font-family: Segoe UI Symbol,serif;">&#128197;</span>14.07.2017</p>
+                        <p class="subheading-secondary blog__item__status"><span style="font-family: Segoe UI Symbol,serif;">&#128460;</span>Development</p>
+                    </div>
+                    <p class="subheading-secondary blog__item__subheading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quidem eius vitae blanditiis natus, laborum possimus, eveniet delectus impedit error suscipit odit libero consectetur, distinctio commodi dolore numquam ullam tempora?</p>
+                </div>
+            </div>
+            <button class="button-primary button-active">MORE VIEW</button>
+        </section>
+    </main>
 
     <section class="contact-form">
         <h2 class="header-secondary">Contact Us</h2>
-        <p class="subheading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio repellendus fuga obcaecati accusantium sunt, porro dolor repellat sint earum. Autem in consequuntur tempora cumque qui culpa deserunt doloribus laudantium rerum.</p>
-        <div class="contact-form__item">
-            <div class="contact-form__item-background"><img src="resources/images/mail.png" alt="Mail"></div>
-            <h3></h3>
+        <div class="subheading-secondary-container"><p class="subheading-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio repellendus fuga obcaecati accusantium sunt, porro dolor repellat sint earum. Autem in consequuntur tempora cumque qui culpa deserunt doloribus laudantium rerum.</p></div>
+        <div class="contact-form-items">
+            <div class="contact-form__item">
+                <div class="contact-form__item-background"><img src="resources/images/mail.png" alt="Mail"></div>
+                <p>mr.klerc@gmail.com</p>
+            </div>
+            <div class="contact-form__item">
+                <div class="contact-form__item-background"><img src="resources/images/placeholder.png" alt="Placeholder"></div>
+                <p>Nobinagar savar, Dhaka Bengladesh<p>
+            </div>
+            <div class="contact-form__item">
+                <div class="contact-form__item-background"><img src="resources/images/phone-call.png" alt="Phone-call"></div>
+                <p>+38098878888</p>
+            </div>
         </div>
-        <div class="contact-form__item">
-            <div class="contact-form__item-background"><img src="resources/images/placeholder.png" alt="Placeholder"></div>
-            <h3>Nobinagar savar, Dhaka Bengladesh</h3>
-        </div>
-        <div class="contact-form__item">
-            <div class="contact-form__item-background"><img src="resources/images/phone-call.png" alt="Phone-call"></div>
-            <h3>+38098878888</h3>
-        </div>
-        <input type="text" class="name">
-        <input type="text" class="email">
-        <input type="text" class="message">
-        <button class="form__button form__button-active">SEND</button>
+        <div class="contact-form__input">
+            <input type="text" class="name" style="width: 500px; height: 80px" placeholder="Your NAME">
+            <input type="text" class="email" style="width: 500px; height: 80px" placeholder="Your Email">
+            <input type="text" class="message" style="height: 320px" placeholder="Write Message">
+            <button class="form__button form__button-active">SEND</button>
+         </div>
+    
     </section>
     <footer>
         <h2 class="heading-secondary">All rights Reserved © 2017</h2>

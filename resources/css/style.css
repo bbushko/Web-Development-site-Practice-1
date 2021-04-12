@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+  margin: 0 auto;
+}
+
+
+
+h1, h2, h3, h4 p {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.logo {
+  margin-left: 115px;
+}
+header nav {
+  margin-right: 115px;
+
+}
+.nav__item {
+  display: inline;
+  padding-right: 39px;
+}
+
+.nav__item a:hover {
+  transition: color 0.2s ease;
+  color: red;
+}
+.nav__item a:visited {
+  color: black;
+}
+
+
+.page__hero {
+  background-image: url('file:////Users/bogdan/Documents/Codecademy/HTML/projects/company_flexbox/resources/images/pexels-photo-356056.png');
+  text-align: center;
+  margin-bottom: 130px;
+  position: relative;
+  width: 100%;
+
+}
+
+.down-icon a:visited {
+  color: white;
+}
+
+.down-icon {
+  color: white;
+  margin-top: 100px;
+}
+
+.subheading {
+  font-size: 22px;
+  font-weight: 200;
+  color: white
+}
+
+.page-heading {
+  padding-top: 190px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+}
+
+button {
+  text-align: center;
+  text-decoration: none;
+}
+button:hover {
+  cursor: pointer;
+}
+button:active{
+  background-color: #3949ab !important;
+}
+button:focus{
+  outline: none;
+}
+.form__button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  font-size: 16px;
+  height: 70px;
+  font-weight: bold;
+  border-radius: 10%;
+}
+.button-primary {
+  background: none;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button-secondary {
+  background: none;
+  border: 1px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+.button-secondary:hover {
+  transition: background-color 0.2s ease;
+  background-color: #44dba9; /* Green */
+}
+
+.button-active {
+  margin-top: 115px;
+}
+
+.button-primary:hover {
+  transition: background-color 0.2s ease;
+  background-color: #44dba9; /* Green */
+}
+
+.heading-secondary {
+  font-weight: 30px;
+}
+
+.about {
+  text-align: center;
+  max-width: 100%;
+
+}
+
+.subheading-secondary {
+  color: grey;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.subheading-secondary-container {
+  width: 600px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 125px;
+}
+
+.image-presenter {
+  margin: auto;
+  width: 1030px;
+  display: flex;
+  justify-items: center;
+}
+
+.image-presenter__item {
+  width: 230px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.services {
+  background-color: #e4fdf9;
+  text-align: center;
+  padding-top: 115px;
+  height: 1250px;
+  max-width: 100%;
+}
+
+.card-presenter {
+  width: 1170px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 110px;
+}
+
+.card-presenter__item {
+
+  background-color: white;
+  width: 370px;
+  height: 437px;
+  margin-bottom: 33px;
+}
+
+.card-presenter__item:hover {
+  transition: background-color 0.2s ease;
+  background-color: #44dba9;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.card-presenter__item .button-secondary:hover {
+  transition: all 0.2s ease;
+  color: white;
+  border: 1px solid white;
+}
+
+.mobile-icon {
+  margin-top: 59px;
+  margin-bottom: 40px;
+}
+
+.card-presenter__item p {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+
+
+
+.latest-works {
+  height: 1486px;
+  text-align: center;
+  padding-top: 100px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+
+.design-items {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 60px;
+  
+}
+
+.design-item {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  margin: 15px;
+}
+
+.design-item h3 {
+  line-height: 10px;
+  color: white;
+}
+.design-item p {
+  color: rgb(216, 216, 216);
+}
+
+.design-item h3{
+  visibility: hidden;
+  position: absolute;
+  top : 40%;
+  left: 0;
+  width: 100%;
+}
+
+.design-item p{
+  visibility: hidden;
+  position: absolute;
+  top : 40%;
+  left: 0;
+  width: 100%;
+}
+
+.design-item:hover img {
+  transition: all 0.2s ease;
+  filter: brightness(50%);
+}
+.design-item:hover p {
+  visibility: visible;
+  transition: all 0.2s ease;
+}
+.design-item:hover h3 {
+  visibility: visible;
+  
+}
+.latest-works .button-primary {
+  border: 2px solid black;
+  color: black;
+}
+.latest-works .button-primary:hover {
+  border: none;
+  color: white;
+}
+
+
+.pricing {
+  padding-top: 125px;
+  background-color: #f0f1f1;
+  text-align: center;
+  max-width: 100%;
+
+}
+
+.pricing-plan {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.pricing-plan__item {
+  background-color: white;
+  width: 370px;
+  height: 668px;
+  background-image: url('file:////Users/bogdan/Documents/Codecademy/HTML/projects/company_flexbox/resources/images/blue.png');
+  background-repeat: no-repeat;
+}
+
+.pricing-plan-item__price {
+  margin-top: 45px;
+  color: white;
+}
+.cost {
+  margin-bottom: 104px;
+}
+.pricing-plan-item__price .sum {
+  font-size: 50px;
+  
+}
+.pricing-plan-item__price h3 {
+  font-size: 25px;
+}
+.pricing-plan-item__price .dollar-symbol-upper {
+  vertical-align: super;
+  font-size: 25px;
+}
+.pricing-plan-item__price p {
+  font-size: 17px;
+}
+
+.pricing-plan__item__paragraph {
+  border-bottom: 1px solid grey;
+  width: 170px;
+  margin: auto;
+  margin-bottom: 37px;
+  color: grey;
+  padding-bottom: 5px;
+}
+
+.pricing-plan__item__paragraph:last-child{
+  margin-bottom: 0;
+}
+
+.pricing-plan .button-secondary {
+  margin-top: 70px;
+}
+.pricing-plan__item {
+  margin-bottom: 125px;
+}
+
+.pricing-plan__item:hover {
+  transition: all 0.2s linear;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+
+.team-members {
+  height: 848px;
+  text-align: center;
+  max-width: 100%;
+
+}
+.team-members .heading-secondary{
+  margin-top: 123px;
+}
+
+.slideshow-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  margin: 0 auto;
+}
+.icon {
+  margin-right: 15px;
+  background-color: #f0f1f1;
+  border-radius: 20%;
+  height: 30px;
+  width: 30px;
+  padding: 3%;
+  fill: #00897b;
+}
+
+.icon:hover {
+  background-color: #7585eb;
+  color: red;
+}
+
+.blog .heading-secondary {
+  padding-top: 123px;
+}
+.blog {
+  background-color: #e4fdf9;
+  text-align:center;
+}
+.blog__item__date, .blog__item__status {
+  display: inline;
+  margin-right: 40px;
+}
+.blog__item__data {
+  margin-top: 20px;
+}
+.blog__item {
+  margin-top: 123px;
+  width: 1170px;
+  display: flex;
+  margin: 0 auto;
+}
+.blog__item__text {
+  max-width: 470px;
+  text-align: left;
+  margin-top: 60px;
+}
+.blog__item__text:nth-child(even) {
+  margin-left: 30px;
+}
+.blog__item__text:nth-child(odd) {
+  margin-right: 130px;
+}
+.blog .button-primary {
+  margin-bottom: 125px;
+  background-color: #00897b;
+}
+
+
+
+
+.contact-form {
+  width: 100%;
+  height: 1121px;
+  padding-top: 125px;
+  text-align: center;
+  color: white;
+  background-image: url('file:////Users/bogdan/Documents/Codecademy/HTML/projects/company_flexbox/resources/images/contact-back.png');
+}
+.contact-form-items {
+  width: 970px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+.contact-form__item {
+  margin-right: 30px;
+  width: 260px;
+  height: 270px;
+
+}
+.contact-form__item:last-child {
+  margin: 0;
+}
+.contact-form__item img{ 
+  max-height: 45px;
+
+
+
+}
+.contact-form__item-background{
+  margin-bottom: 60px;
+}
+input {
+  width: 100%;
+
+  margin: 15px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.name {
+  margin-left: 30px;
+
+}
+::-webkit-input-placeholder {
+  top: 0;
+  position: absolute; top: 30px;
+  position:0 0;
+}
+input::placeholder {
+  padding: 0 15px;
+}
+.message::placeholder {
+  top: 0;
+  position: absolute; top: 30px;
+  position:0 0;
+}
+
+.contact-form__input {
+  display: flex;
+
+  margin: 0 auto;
+  width: 1030px;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: grey;
+  background-color: white;
+}
+footer h2 {
+  margin: 10px 0 10px 0;
+  font-size: 15px;
+}
